@@ -4,15 +4,12 @@ import { CssBaseline } from '@material-ui/core'
 import theme from './theme'
 import Grid from './components/grid'
 import Container from '@material-ui/core/Container'
-import Appbar from './components/Appbar'
 
 const App = () => (
   <ThemeProvider theme={theme}>
     <CssBaseline />
     <Container>
-       <Appbar>
-            <Grid />
-       </Appbar>
+        <Grid />
     </Container>
 
   </ThemeProvider>
